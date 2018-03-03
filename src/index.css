@@ -1,14 +1,7 @@
 
-body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
-  background-color: #BBB;
-  text-align: center;
-  height: 100%;
-}
-
-ol, ul {
-  padding-left: 30px;
+game-ol {
+  -webkit-padding-start: 0px;
+  padding: 0px;
 }
 
 .board-row:after {
@@ -60,4 +53,5 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+  text-align: center;
 }
